@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sonora Dinamita",
+    "fecha": "Feb 1, 1996, 7:00:00 PM"
+  },
+  {
+    "id": 2,
+    "nombre": "Enanitos Verdes",
+    "fecha": "Dec 27, 1978, 7:00:00 PM"
+  },
+  {
+    "id": 3,
+    "nombre": "Red hot chilli peppers",
+    "fecha": "Apr 11, 1983, 7:00:00 PM"
+  },
+  {
+    "id": 4,
+    "nombre": "Humbe",
+    "fecha": "Feb 14, 2020, 7:00:00 PM"
+  },
+  {
+    "id": 5,
+    "nombre": "LaUeslomaximo",
+    "fecha": "Apr 3, 2024, 7:00:00 PM"
+  }
+]

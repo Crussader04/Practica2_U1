@@ -1,0 +1,9 @@
+import { EndpointRequestInit as EndpointRequestInit_1 } from "@vaadin/hilla-frontend";
+import client_1 from "./connect-client.default.js";
+async function createCancion_1(nombre: string | undefined, duracion: number | undefined, url: string | undefined, tipo: string | undefined, id_genero: number | undefined, id_album: number | undefined, init?: EndpointRequestInit_1): Promise<void> { return client_1.call("CancionService", "createCancion", { nombre, duracion, url, tipo, id_genero, id_album }, init); }
+async function listAlbumCombo_1(init?: EndpointRequestInit_1): Promise<Array<Record<string, unknown> | undefined> | undefined> { return client_1.call("CancionService", "listAlbumCombo", {}, init); }
+async function listCancion_1(init?: EndpointRequestInit_1): Promise<Array<Record<string, unknown> | undefined> | undefined> { return client_1.call("CancionService", "listCancion", {}, init); }
+async function listGeneroCombo_1(init?: EndpointRequestInit_1): Promise<Array<Record<string, unknown> | undefined> | undefined> { return client_1.call("CancionService", "listGeneroCombo", {}, init); }
+async function listTipo_1(init?: EndpointRequestInit_1): Promise<Array<string | undefined> | undefined> { return client_1.call("CancionService", "listTipo", {}, init); }
+async function updateCancion_1(id: number | undefined, nombre: string | undefined, duracion: number | undefined, url: string | undefined, tipo: string | undefined, id_genero: number | undefined, id_album: number | undefined, init?: EndpointRequestInit_1): Promise<void> { return client_1.call("CancionService", "updateCancion", { id, nombre, duracion, url, tipo, id_genero, id_album }, init); }
+export { createCancion_1 as createCancion, listAlbumCombo_1 as listAlbumCombo, listCancion_1 as listCancion, listGeneroCombo_1 as listGeneroCombo, listTipo_1 as listTipo, updateCancion_1 as updateCancion };

@@ -1,0 +1,74 @@
+[
+  {
+    "route": "",
+    "flowLayout": false,
+    "params": {},
+    "title": "Main Layout",
+    "children": [
+      {
+        "route": "",
+        "menu": {
+          "exclude": true
+        },
+        "flowLayout": false,
+        "params": {},
+        "title": "Main"
+      },
+      {
+        "route": "Album-list",
+        "title": "Album",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 2,
+          "title": "Album"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "banda-list",
+        "title": "Banda",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 2,
+          "title": "Banda"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "Cancion-list",
+        "title": "Cancion",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 2,
+          "title": "Cancion"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "Genero-list",
+        "title": "Genero",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 2,
+          "title": "Genero"
+        },
+        "flowLayout": false,
+        "params": {}
+      },
+      {
+        "route": "task-list",
+        "title": "Task List",
+        "menu": {
+          "icon": "vaadin:clipboard-check",
+          "order": 1,
+          "title": "Task List"
+        },
+        "flowLayout": false,
+        "params": {}
+      }
+    ]
+  }
+]

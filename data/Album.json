@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "The Getaway",
+    "fecha": "Jan 20, 2016, 7:00:00 PM",
+    "id_banda": 3
+  },
+  {
+    "id": 2,
+    "nombre": "Big Bang",
+    "fecha": "May 5, 1994, 7:00:00 PM",
+    "id_banda": 2
+  },
+  {
+    "id": 3,
+    "nombre": "La original",
+    "fecha": "Feb 25, 1991, 7:00:00 PM",
+    "id_banda": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Escencia",
+    "fecha": "Mar 29, 2024, 7:00:00 PM",
+    "id_banda": 4
+  },
+  {
+    "id": 5,
+    "nombre": "Dinamita",
+    "fecha": "May 30, 2025, 7:00:00 PM",
+    "id_banda": 5
+  }
+]

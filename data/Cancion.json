@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Dark Necessities",
+    "id_genero": 2,
+    "id_album": 1,
+    "duracion": 503,
+    "url": "https://www.youtube.com/watch?v\u003dQ0oIoR9mLwc",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 2,
+    "nombre": "Lamento boliviano",
+    "id_genero": 2,
+    "id_album": 2,
+    "duracion": 342,
+    "url": "https://www.youtube.com/watch?v\u003dBRuHGchMrD8",
+    "tipo": "FISICO"
+  },
+  {
+    "id": 3,
+    "nombre": "Gracias Veronica",
+    "id_genero": 3,
+    "id_album": 3,
+    "duracion": 338,
+    "url": "https://www.youtube.com/watch?v\u003dvoIbnFwhl7g",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 4,
+    "nombre": "Tu valor",
+    "id_genero": 1,
+    "id_album": 4,
+    "duracion": 345,
+    "url": "https://www.youtube.com/watch?v\u003dvoIbnFwhl7g",
+    "tipo": "FISICO"
+  }
+]

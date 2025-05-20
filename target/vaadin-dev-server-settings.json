@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/home/cristian/Escritorio/Practica2_U1/src/main/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/home/cristian/Escritorio/Practica2_U1/src/main/frontend/generated/jar-resources",
+  "staticOutput": "/home/cristian/Escritorio/Practica2_U1/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/home/cristian/Escritorio/Practica2_U1/target/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/home/cristian/Escritorio/Practica2_U1/target/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/home/cristian/Escritorio/Practica2_U1/target/dev-bundle/webapp",
+  "devBundleStatsOutput": "/home/cristian/Escritorio/Practica2_U1/target/dev-bundle/config",
+  "jarResourcesFolder": "/home/cristian/Escritorio/Practica2_U1/src/main/frontend/generated/jar-resources",
+  "themeName": "default",
+  "clientServiceWorkerSource": "/home/cristian/Escritorio/Practica2_U1/target/sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
