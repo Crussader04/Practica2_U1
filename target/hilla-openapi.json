@@ -109,6 +109,36 @@
         }
       }
     },
+    "/AlbumService/listAllAlbum" : {
+      "post" : {
+        "tags" : [
+          "AlbumService"
+        ],
+        "operationId" : "AlbumService_listAllAlbum_POST",
+        "responses" : {
+          "200" : {
+            "description" : "",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "nullable" : true,
+                  "items" : {
+                    "nullable" : true,
+                    "anyOf" : [
+                      {
+                        "$ref" : "#/components/schemas/org.northpole.workshop.base.models.Album"
+                      }
+                    ]
+                  },
+                  "x-java-type" : "java.util.List"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/AlbumService/listBandaCombo" : {
       "post" : {
         "tags" : [
@@ -360,10 +390,10 @@
                     "x-java-type" : "java.lang.String"
                   },
                   "duracion" : {
-                    "type" : "integer",
-                    "format" : "int32",
+                    "type" : "number",
+                    "format" : "double",
                     "nullable" : true,
-                    "x-java-type" : "java.lang.Integer"
+                    "x-java-type" : "java.lang.Double"
                   },
                   "url" : {
                     "type" : "string",
@@ -521,6 +551,161 @@
         }
       }
     },
+    "/CancionService/order" : {
+      "post" : {
+        "tags" : [
+          "CancionService"
+        ],
+        "operationId" : "CancionService_order_POST",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "object",
+                "properties" : {
+                  "attribute" : {
+                    "type" : "string",
+                    "nullable" : true,
+                    "x-java-type" : "java.lang.String"
+                  },
+                  "type" : {
+                    "type" : "integer",
+                    "format" : "int32",
+                    "nullable" : true,
+                    "x-java-type" : "java.lang.Integer"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "nullable" : true,
+                  "items" : {
+                    "type" : "object",
+                    "additionalProperties" : {
+                      "type" : "object"
+                    },
+                    "nullable" : true,
+                    "x-java-type" : "java.util.HashMap"
+                  },
+                  "x-java-type" : "java.util.List"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CancionService/search" : {
+      "post" : {
+        "tags" : [
+          "CancionService"
+        ],
+        "operationId" : "CancionService_search_POST",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "object",
+                "properties" : {
+                  "attribute" : {
+                    "type" : "string",
+                    "nullable" : true,
+                    "x-java-type" : "java.lang.String"
+                  },
+                  "value" : {
+                    "type" : "string",
+                    "nullable" : true,
+                    "x-java-type" : "java.lang.String"
+                  },
+                  "type" : {
+                    "type" : "integer",
+                    "format" : "int32",
+                    "nullable" : true,
+                    "x-java-type" : "java.lang.Integer"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "nullable" : true,
+                  "items" : {
+                    "type" : "object",
+                    "additionalProperties" : {
+                      "type" : "object"
+                    },
+                    "nullable" : true,
+                    "x-java-type" : "java.util.HashMap"
+                  },
+                  "x-java-type" : "java.util.List"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CancionService/searchAlbum" : {
+      "post" : {
+        "tags" : [
+          "CancionService"
+        ],
+        "operationId" : "CancionService_searchAlbum_POST",
+        "requestBody" : {
+          "content" : {
+            "application/json" : {
+              "schema" : {
+                "type" : "object",
+                "properties" : {
+                  "nombreAlbum" : {
+                    "type" : "string",
+                    "nullable" : true,
+                    "x-java-type" : "java.lang.String"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses" : {
+          "200" : {
+            "description" : "",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "type" : "array",
+                  "nullable" : true,
+                  "items" : {
+                    "type" : "object",
+                    "additionalProperties" : {
+                      "type" : "object"
+                    },
+                    "nullable" : true,
+                    "x-java-type" : "java.util.HashMap"
+                  },
+                  "x-java-type" : "java.util.List"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/CancionService/updateCancion" : {
       "post" : {
         "tags" : [
@@ -550,10 +735,10 @@
                     "x-java-type" : "java.lang.String"
                   },
                   "duracion" : {
-                    "type" : "integer",
-                    "format" : "int32",
+                    "type" : "number",
+                    "format" : "double",
                     "nullable" : true,
-                    "x-java-type" : "java.lang.Integer"
+                    "x-java-type" : "java.lang.Double"
                   },
                   "url" : {
                     "type" : "string",
@@ -781,6 +966,34 @@
   },
   "components" : {
     "schemas" : {
+      "org.northpole.workshop.base.models.Album" : {
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "integer",
+            "format" : "int32",
+            "nullable" : true,
+            "x-java-type" : "java.lang.Integer"
+          },
+          "nombre" : {
+            "type" : "string",
+            "nullable" : true,
+            "x-java-type" : "java.lang.String"
+          },
+          "fecha" : {
+            "type" : "string",
+            "format" : "date",
+            "nullable" : true,
+            "x-java-type" : "java.util.Date"
+          },
+          "id_banda" : {
+            "type" : "integer",
+            "format" : "int32",
+            "nullable" : true,
+            "x-java-type" : "java.lang.Integer"
+          }
+        }
+      },
       "org.northpole.workshop.base.models.Banda" : {
         "type" : "object",
         "properties" : {

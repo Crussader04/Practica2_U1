@@ -3,6 +3,7 @@ BandaService.ts
 CancionService.ts
 GeneroService.ts
 TaskService.ts
+org/northpole/workshop/base/models/Album.ts
 org/northpole/workshop/base/models/Banda.ts
 org/northpole/workshop/base/models/Genero.ts
 com/vaadin/hilla/mappedtypes/Pageable.ts
@@ -14,6 +15,7 @@ org/springframework/data/domain/Sort/Direction.ts
 org/springframework/data/domain/Sort/NullHandling.ts
 connect-client.default.ts
 endpoints.ts
+org/northpole/workshop/base/models/AlbumModel.ts
 org/northpole/workshop/base/models/BandaModel.ts
 org/northpole/workshop/base/models/GeneroModel.ts
 com/vaadin/hilla/mappedtypes/PageableModel.ts

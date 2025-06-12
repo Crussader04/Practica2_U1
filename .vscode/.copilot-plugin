@@ -1,0 +1,6 @@
+# Vaadin Copilot Integration Runtime Properties
+# Thu, 12 Jun 2025 16:37:44 GMT
+ide = vscode
+endpoint = http\://127.0.0.1\:39639/copilot-ebe32023-d7ac-4e82-91d6-a93bc0ca643b
+version = 1.1.0
+supportedActions = write,writeBase64,undo,redo,refresh

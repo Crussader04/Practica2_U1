@@ -5,9 +5,14 @@ public class Cancion {
     private String nombre;
     private Integer id_genero;
     private Integer id_album;
-    private Integer duracion;
+    private Double duracion;
     private String url;
     private TipoArchivoEnum tipo;
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
 
     public Integer getId() {
         return this.id;
@@ -30,10 +35,10 @@ public class Cancion {
         this.id_genero = id_genero;
     }
 
-    public Integer getDuracion() {
+    public Double getDuracion() {
         return this.duracion;
     }
-    public void setDuracion(Integer duracion) {
+    public void setDuracion(Double duracion) {
         this.duracion = duracion;
     }
 

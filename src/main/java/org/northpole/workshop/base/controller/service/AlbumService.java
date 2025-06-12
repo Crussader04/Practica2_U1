@@ -1,6 +1,7 @@
 package org.northpole.workshop.base.controller.service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -61,6 +62,10 @@ public class AlbumService {
         return lista;
     }
 
+    public List<Album> listAllAlbum() {
+    return Arrays.asList(da.listAll().toArray());
+}
+
     public List<HashMap> listAlbum(){
         List<HashMap> list = new ArrayList<>();
         if(!da.listAll().isEmpty()){
@@ -69,7 +74,6 @@ public class AlbumService {
                 HashMap<String, String> aux = new HashMap<>();
                 aux.put("id", arreglo[i].getId().toString(i));
                 aux.put("nombre", arreglo[i].getNombre().toString());
-                aux.put("fecha", arreglo[i].getFecha().toString());
                 aux.put("Banda", new DaoBanda().listAll().get(arreglo[i].getId_banda() - 1).getNombre());
                 aux.put("id_banda", new DaoBanda().listAll().get(arreglo[i].getId_banda() - 1).getId().toString());
                 list.add(aux);

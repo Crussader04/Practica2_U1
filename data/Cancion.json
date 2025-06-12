@@ -4,7 +4,7 @@
     "nombre": "Dark Necessities",
     "id_genero": 2,
     "id_album": 1,
-    "duracion": 503,
+    "duracion": 5.03,
     "url": "https://www.youtube.com/watch?v\u003dQ0oIoR9mLwc",
     "tipo": "VIRTUAL"
   },
@@ -13,7 +13,7 @@
     "nombre": "Lamento boliviano",
     "id_genero": 2,
     "id_album": 2,
-    "duracion": 342,
+    "duracion": 3.42,
     "url": "https://www.youtube.com/watch?v\u003dBRuHGchMrD8",
     "tipo": "FISICO"
   },
@@ -22,7 +22,7 @@
     "nombre": "Gracias Veronica",
     "id_genero": 3,
     "id_album": 3,
-    "duracion": 338,
+    "duracion": 2.38,
     "url": "https://www.youtube.com/watch?v\u003dvoIbnFwhl7g",
     "tipo": "VIRTUAL"
   },
@@ -31,8 +31,107 @@
     "nombre": "Tu valor",
     "id_genero": 1,
     "id_album": 4,
-    "duracion": 345,
-    "url": "https://www.youtube.com/watch?v\u003dvoIbnFwhl7g",
+    "duracion": 3.0,
+    "url": "https://www.youtube.com/watch?v\u003dqRYE-n_zHjI",
     "tipo": "FISICO"
+  },
+  {
+    "id": 5,
+    "nombre": "Esencia",
+    "id_genero": 1,
+    "id_album": 4,
+    "duracion": 5.06,
+    "url": "https://www.youtube.com/watch?v\u003dovWrLYddWvc",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 6,
+    "nombre": "Sick Love",
+    "id_genero": 4,
+    "id_album": 1,
+    "duracion": 3.2,
+    "url": "https://www.youtube.com/watch?v\u003dI2XfVml6o24",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 7,
+    "nombre": "Piel de Nopal",
+    "id_genero": 2,
+    "id_album": 2,
+    "duracion": 3.06,
+    "url": "https://www.youtube.com/watch?v\u003d8JbOYYD0Nag",
+    "tipo": "FISICO"
+  },
+  {
+    "id": 8,
+    "nombre": "Nada",
+    "id_genero": 1,
+    "id_album": 5,
+    "duracion": 4.26,
+    "url": "https://www.youtube.com/watch?v\u003dEU0LljxpHIk",
+    "tipo": "FISICO"
+  },
+  {
+    "id": 9,
+    "nombre": "Lo logre",
+    "id_genero": 1,
+    "id_album": 4,
+    "duracion": 3.01,
+    "url": "https://www.youtube.com/watch?v\u003dPF76f0GZNA8",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 10,
+    "nombre": "Mete y saca",
+    "id_genero": 3,
+    "id_album": 3,
+    "duracion": 3.27,
+    "url": "https://www.youtube.com/watch?v\u003dtbusCQ0nxTg",
+    "tipo": "FISICO"
+  },
+  {
+    "id": 11,
+    "nombre": "Encore",
+    "id_genero": 2,
+    "id_album": 1,
+    "duracion": 4.14,
+    "url": "https://www.youtube.com/watch?v\u003d63xPXEB4fjA",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 12,
+    "nombre": "Que te la pongo",
+    "id_genero": 3,
+    "id_album": 3,
+    "duracion": 4.16,
+    "url": "https://www.youtube.com/watch?v\u003d0X9USk1Zd3Q",
+    "tipo": "FISICO"
+  },
+  {
+    "id": 13,
+    "nombre": "Celdas",
+    "id_genero": 5,
+    "id_album": 2,
+    "duracion": 3.42,
+    "url": "https://www.youtube.com/watch?v\u003dIGVmSjBFLQE",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 14,
+    "nombre": "Luna",
+    "id_genero": 4,
+    "id_album": 5,
+    "duracion": 5.01,
+    "url": "https://www.youtube.com/watch?v\u003d6W4L2O-JQ-w",
+    "tipo": "VIRTUAL"
+  },
+  {
+    "id": 15,
+    "nombre": "Fnatasma",
+    "id_genero": 5,
+    "id_album": 5,
+    "duracion": 4.22,
+    "url": "https://www.youtube.com/watch?v\u003dogGjhiWQXLU",
+    "tipo": "VIRTUAL"
   }
 ]

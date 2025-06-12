@@ -282,8 +282,8 @@ export default function AlbumView() {
         <GridColumn path="nombre" header="Nombre del Album" />
         <GridColumn path="Banda" header="Banda" />
         <GridColumn path="fecha" header="Fecha">
-          {({ item }) => {const fecha = new Date(item.fecha); return isNaN(fecha.getTime()) ? 'Fecha inválida' : dateFormatter.format(fecha);  }}
-</GridColumn>
+          {({ item }) => (item.fecha ? dateFormatter.format(new Date(item.fecha)) : 'Never')}
+        </GridColumn>
 
         <GridColumn header="Acciones" renderer={link} />
       </Grid>
