@@ -1,5 +1,7 @@
 package org.northpole.workshop.base.controller.datastruct.list;
 
+import java.lang.reflect.Array;
+
 public class LinkedList<E> {
     private Node<E> head;
     private Node<E> last;
@@ -111,7 +113,7 @@ public class LinkedList<E> {
         }
     }
 
-    public void add(E data) throws Exception {
+    public void add(E data) {
         addLast(data);    
     }
 
@@ -199,7 +201,7 @@ public class LinkedList<E> {
         E[] matriz = null;
         if(this.size > 0){
             clazz = head.getData().getClass();
-            matriz = (E[]) java.lang.reflect.Array.newInstance(clazz, this.size);
+            matriz = (E[]) Array.newInstance(clazz, this.size);
             Node<E> aux = head;
             for (int i = 0; i < this.size; i++) {
                 matriz[i] = aux.getData();

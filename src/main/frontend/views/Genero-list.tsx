@@ -1,5 +1,5 @@
 import { ViewConfig } from '@vaadin/hilla-file-router/types.js';
-import { Button, DatePicker, Dialog, Grid, GridColumn, GridItemModel, TextField, VerticalLayout } from '@vaadin/react-components';
+import { Button, DatePicker, Dialog, Grid, GridColumn, GridItemModel, Icon, TextField, VerticalLayout } from '@vaadin/react-components';
 import { Notification } from '@vaadin/react-components/Notification';
 
 import { useSignal } from '@vaadin/hilla-react-signals';
@@ -237,6 +237,8 @@ export default function GeneroListView() {
       <ViewToolbar title="Generos">
         <Group>
           <GeneroEntryForm onGeneroCreated={dataProvider.refresh} />
+                  <Icon icon="vaadin:Maze" />
+
         </Group>
       </ViewToolbar>
       <Grid dataProvider={dataProvider.dataProvider}>
